@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navegacion container">
+        <input type="checkbox" id="menu__toogle">
+        <img class="navegacion__icon" src="images/logo.svg" alt="Loopstudios" />
+        
+        <ul class="menu__nav">
+          <li>About</li>
+          <li>Carrers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+        <label for="menu__toogle">
+          <img
+            class="menu__icon-h"
+            src="images/icon-hamburger.svg"
+            alt="menu-icon-hamburger" />
+           <img
+            class="menu__icon-c"
+            src="images/icon-close.svg"
+            alt="menu-icon-close" />
+        </label>
+      </nav>
+
+      <section class="hero container">
+        <h1>
+          immersive experiences that <br />
+          deliver
+        </h1>
+      </section>
+    </header>
+
+    <main class="container">
+      <section class="vr">
+        <picture>
+          <source
+            srcset="./images/desktop/image-interactive.jpg"
+            media="(min-width:720px)" />
+          <img
+            class="vr__img"
+            src="./images/mobile/image-interactive.jpg"
+            alt="vr interactive" />
+        </picture>
+
+        <div class="vr__content">
+          <h2>the leader in interactive vr</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
+
+      <section class="creations">
+        <h2>Our creations</h2>
+        <div class="creations__grid">
+          <picture>
+            <source
+              srcset="./images/desktop/image-deep-earth.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-deep-earth.jpg"
+              alt="deep earth" />
+
+            <p class="texto">
+              deep <br />
+              earth
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-night-arcade.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-night-arcade.jpg"
+              alt="night arcade" />
+            <p class="texto">
+              night <br />
+              arcade
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-soccer-team.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-soccer-team.jpg"
+              alt="soccer team" />
+            <p class="texto">
+              soccer <br />
+              team vr
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-grid.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-grid.jpg"
+              alt="grid interactive" />
+
+            <p class="texto">
+              the <br />
+              grid
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-from-above.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-from-above.jpg"
+              alt="from about" />
+            <p class="texto">
+              from up <br />
+              above vr
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-pocket-borealis.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-pocket-borealis.jpg"
+              alt="borealis" />
+            <p class="texto">
+              pocket <br />
+              borealis
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-curiosity.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-curiosity.jpg"
+              alt="curiosity" />
+            <p class="texto">
+              the <br />
+              curiosity
+            </p>
+          </picture>
+          <picture>
+            <source
+              srcset="./images/desktop/image-fisheye.jpg"
+              media="(min-width:860px)" />
+            <img
+              class="creations__img"
+              src="./images/mobile/image-fisheye.jpg"
+              alt="fisheye" />
+            <p class="texto">
+              maket it <br />
+              fisheye
+            </p>
+          </picture>
+        </div>
+        <button class="cta">see all</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__grid container">
+        <img
+          class="footer__img"
+          src="images/logo.svg"
+          alt="footer logo description" />
+        <nav class="footer__nav">
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Events</a>
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <img src="images/icon-facebook.svg" alt="social network" />
+          <img src="images/icon-pinterest.svg" alt="social network" />
+          <img src="images/icon-twitter.svg" alt="social network" />
+          <img src="images/icon-instagram.svg" alt="social network" />
+        </div>
+
+        <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
