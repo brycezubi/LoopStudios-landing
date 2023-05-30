@@ -21,6 +21,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - CSS Grid
 - Mobile-first workflow
 - JavaScript
+- Google Fonts
 
 ### Screenshot
 
